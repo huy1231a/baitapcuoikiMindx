@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  width : 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  margin-top: 30px;
+}
+div {
+        background-color: #cc0000;
+        background: -moz-linear-gradient(bottom, #cc0000 30%, #330000 70%);
+        background: -o-linear-gradient(bottom, #cc0000 30%, #330000 70%);
+        background: -ms-linear-gradient(bottom, #cc0000 30%, #330000 70%);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0.3, #cc0000),color-stop(0.7, #330000));
+        height: 300px;
+        width: 300px;
+}
